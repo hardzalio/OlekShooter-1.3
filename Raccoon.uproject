@@ -1,0 +1,34 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.4",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Raccoon",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Volumetrics",
+			"Enabled": true
+		},
+		{
+			"Name": "FSR",
+			"Enabled": false
+		},
+		{
+			"Name": "MobileFSR",
+			"Enabled": false
+		},
+	],
+	"TargetPlatforms": [
+		"Windows",
+		"Mac"
+	]
+}
