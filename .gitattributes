@@ -1,2 +1,10 @@
-# Auto detect text files and perform LF normalization
+# Авто-конвертація кінця рядка
 * text=auto
+
+# Лінії коду C++ та Unreal Engine
+*.cpp text diff=cpp
+*.h text diff=cpp
+*.uproject text
+*.ini text
+*.uasset binary
+*.umap binary
